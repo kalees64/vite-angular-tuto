@@ -1,10 +1,25 @@
+<ngx-sonner-toaster richColors position="top-right"></ngx-sonner-toaster>
+
 <h1 class="text-2xl font-bold text-center pt-5">Vite + Angular</h1>
 <h1 class="text-2xl font-bold text-center pt-5">Sweet Alert</h1>
-<div class="flex justify-center pt-2">
+<div class="flex justify-center pt-2 flex-col gap-4 items-center">
   <button
     class="p-2 rounded text-white bg-black text-lg px-4"
     (click)="openAlert()"
   >
     Alert
+  </button>
+
+  <button
+    class="p-2 rounded text-white bg-black text-lg px-4"
+    (click)="openToastr()"
+  >
+    Open Toastr
+  </button>
+  <button
+    class="p-2 rounded text-white bg-black text-lg px-4"
+    (click)="openSonner()"
+  >
+    Open Sonner
   </button>
 </div>
